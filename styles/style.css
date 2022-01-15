@@ -11,6 +11,16 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.common-width{
+    width: 85%;
+    align-content: center;
 }
 a{
     text-decoration: none;
@@ -27,7 +37,6 @@ header{
     justify-content: center;
 }
 .navbar{
-    width: 85%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,4 +54,39 @@ header{
     font-size: 16px;
     font-weight: 600;
     margin-left: 36px;
+}
+/* --------------*\
+    Top banner 
+\*---------------*/
+.top-banner{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.banner-content p{
+    margin: 20px 200px 30px 0px;
+}
+.preebook-btn{
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.banner-backroundg{
+    position: relative;
+    margin-left: 30px;
+}
+.banner-backroundg >img{
+    width: 400px;
+}
+.banner-img{
+    position: absolute;
+    width: 300px;
+    top: 10px;
+    left: 10px;
 }
