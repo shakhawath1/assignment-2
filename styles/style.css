@@ -74,7 +74,7 @@ header{
 .banner-content p{
     margin: 20px 200px 30px 0px;
 }
-.preebook-btn{
+.preebook-btn a{
     color: #fff;
     background-color: #E02C6D;
     padding: 8px 20px;
@@ -188,7 +188,7 @@ hr{
 .article-content p{
     margin: 10px 200px 30px 0px;
 }
-.join-btn{
+.join-btn a{
     color: #fff;
     background-color: #E02C6D;
     padding: 8px 20px;
@@ -201,14 +201,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: #0A0826;
 }
 
 .main-footer{
     width: 420px;
     text-align: center;
 }
-footer .site-title h3, .copyright, .social-icon a{
+footer h3, .copyright, .social-icon a{
     color: #fff;
 }
 footer p{
@@ -220,6 +220,8 @@ footer p{
 /* ---------------------*\
         Media query
 \* ---------------------*/
+
+/* For small devices  */
 @media only screen and (max-width: 688px){
     .container{
         width: 100%;
@@ -277,15 +279,19 @@ footer p{
     }
     /* collections  */
     .collections{
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         column-gap: 0;
+        justify-items: center;
         row-gap: 20px;
         margin-bottom: 0;
     }
     .collection-item img{
         width: 100%;
     }
-
+    .see-more p{
+        padding-right: 20px;
+    }
     /* feature products  */
     .feature-products{
         flex-direction: column;
@@ -311,9 +317,115 @@ footer p{
 
     }
 /* footer  */
-.main-footer{
+    .main-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ------------------
+    For Tab devices
+--------------------*/
+
+@media only screen and (min-width: 689px) and (max-width: 991px){
+    .container{
+        width: 100%;
+    }
+    /* header and menu  */
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .site-title{
+       display: flex;
+       align-items: center;
+       margin-left: -20px;
+    }
+    .site-title h3{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .menu li a{
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    /* top banner  */
+   
+    .banner-backroundg img{
+        width: 90%;
+    }
+    .banner-content{
+        order: 2;
+        margin: 20px 10px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .banner-content p, a{
+        text-align: center;
+        margin: 10px 20px;
+    }
+    .preebook-btn{
+        text-align: center;
+        margin-top: 15px;
+    }
+    /* brands  */
+    .brands{
+        text-align: center;
+    }
+    .brands img{
+        margin: 10px 10px;
+        width: 9%;
+    }
+    /* collections  */
+    .collections{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        justify-items: center;
+    }
+    .collection-item img{
+        width: 100%;
+    }
+    .see-more p{
+        padding-right: 20px;
+    }
+    /* feature products  */
+    .feature-products{
+        margin-top: 0;
+    }
+    .feature-img img{
+        width: 100%;
+        height: 200px;
+    }
+    .article-content{
+        width: 60%;
+        margin: 20px 30px 0px 30px;
+    }
+    .article-title{
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .article-content p{
+        text-align: center;
+        margin: 10px 20px;
+
+    }
+    .join-btn{
+        text-align: center;
+        margin-top: 15px;
+    }
+/* footer  */
+    .main-footer{
     width: 100%;
     display: flex;
     flex-direction: column;
-}
+    }
 }
