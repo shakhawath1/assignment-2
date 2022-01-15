@@ -237,8 +237,9 @@ footer p{
        align-items: center;
     }
     .site-title h3{
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 20px;
+        font-weight: 700;
     }
     .site-title .fa-bars{
         display: inline-flex;
