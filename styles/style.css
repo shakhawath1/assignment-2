@@ -74,7 +74,7 @@ header{
 .preebook-btn{
     color: #fff;
     background-color: #E02C6D;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 50px;
 }
 .banner-backroundg{
@@ -90,9 +90,9 @@ header{
     top: 10px;
     left: 10px;
 }
-/* --------------*\
+/* -------------------*\
     Collection Area
-\*---------------*/
+\*--------------------*/
 .collection-area{
     width: 75%;
     padding: 10px 0px;
@@ -108,7 +108,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
-    margin: 30px 0px;
+    margin: 40px 0px;
 }
 .collection-item{
     box-shadow: 0px 0px 20px #808080;
@@ -136,4 +136,40 @@ header{
 }
 .fa-star.empty{
     color: #AEAEAE;
+}
+.see-more{
+    color: #E02C6D;
+    text-align: right;
+}
+/* -------------------*\
+    Feature Area
+\*--------------------*/
+.feature-products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
+}
+.feature-img img{
+    width: 410px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #f1a8db;
+}
+.article-content{
+    width: 580px;
+}
+.article-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.article-content p{
+    margin: 10px 200px 30px 0px;
+}
+.join-btn{
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 8px 20px;
 }
