@@ -1,7 +1,7 @@
 /* -----------*\
     Fonts  
 \*------------*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 /* ---------------*\
     Common styles  
 \*----------------*/
@@ -89,4 +89,51 @@ header{
     width: 300px;
     top: 10px;
     left: 10px;
+}
+/* --------------*\
+    Collection Area
+\*---------------*/
+.collection-area{
+    width: 75%;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    margin: 30px 0px;
+}
+.collection-item{
+    box-shadow: 0px 0px 20px #808080;
+    border-radius: 10px;
+    padding: 10px;
+}
+.product-name{
+    font-size: 26px;
+    font-weight: 500;
+}
+.product-price{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.rating{
+    font-size: 14px;
+    color: #615d5d;
+}
+.rating span{
+    margin-left: 5px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
 }
