@@ -182,7 +182,7 @@ footer{
     padding: 20px 0px;
     background-color: #000;
 }
-.site-title h3, p, a{
+footer .site-title h3, .copyright, .social-icon a{
     color: #fff;
 }
 footer p{
