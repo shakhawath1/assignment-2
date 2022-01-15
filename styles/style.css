@@ -41,6 +41,9 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+.site-title .fa-bars{
+    display: none;
+}
 .site-title h3{
     color: #000;
     font-size: 24px;
@@ -83,12 +86,29 @@ header{
 }
 .banner-backroundg >img{
     width: 400px;
+    transition: transform 1s;
+}
+.top-banner:hover .banner-img{
+    transform: rotateY(180deg);
 }
 .banner-img{
     position: absolute;
     width: 300px;
     top: 10px;
     left: 10px;
+}
+/* -------------------*\
+    Brands Area
+\*--------------------*/
+.brands{
+    margin-top: 50px;
+    padding: 20px;
+}
+.brands img{
+    margin: 20px;
+}
+hr{
+    border: 1px solid #e9e0e0;
 }
 /* -------------------*\
     Collection Area
@@ -149,7 +169,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 .feature-img img{
     width: 410px;
