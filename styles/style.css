@@ -173,3 +173,21 @@ header{
     background-color: #E02C6D;
     padding: 8px 20px;
 }
+/* -------------------*\
+    Footer sectuin
+\*--------------------*/
+footer{
+    height: 90px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #000;
+}
+.site-title h3, p, a{
+    color: #fff;
+}
+footer p{
+    margin: 5px 50px;
+}
+.social-icon a{
+    margin: 8px;
+}
