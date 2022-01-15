@@ -1,0 +1,48 @@
+/* -----------*\
+    Fonts  
+\*------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+/* ---------------*\
+    Common styles  
+\*----------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* ----------------*\
+    Header and menu  
+\*-----------------*/
+header{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-title h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.menu ul{
+    display: flex;
+}
+.menu li a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 36px;
+}
