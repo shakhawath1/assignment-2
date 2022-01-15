@@ -331,7 +331,8 @@ footer p{
         flex-direction: column;
     }
     .copyright p{
-        margin: 0px 35px;
+        margin: 0px 50px;
+        font-size: 14px;
     }
 }
 
@@ -439,4 +440,5 @@ footer p{
     display: flex;
     flex-direction: column;
     }
+   
 }
