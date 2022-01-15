@@ -269,6 +269,10 @@ footer p{
         text-align: center;
         margin: 10px 20px;
     }
+    .preebook-btn{
+        text-align: center;
+        margin-top: 15px;
+    }
     /* brands  */
     .brands{
         text-align: center;
@@ -314,13 +318,19 @@ footer p{
     .article-content p{
         text-align: center;
         margin: 10px 20px;
-
+    }
+    .join-btn{
+        text-align: center;
+        margin-top: 15px;
     }
 /* footer  */
     .main-footer{
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .copyright p{
+        margin: 0px 35px;
     }
 }
 
